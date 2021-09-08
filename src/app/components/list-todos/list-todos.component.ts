@@ -19,7 +19,7 @@ export class ListTodosComponent implements OnInit {
     this.todos = this.todoService.getTodosList();
   }
 
-  deleteEmployee(id: number) {
+  deleteTodo(id: number) {
     this.todoService.deleteTodo(id)
       .subscribe(
         data => {

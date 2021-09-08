@@ -14,7 +14,7 @@
                 <tr *ngFor="let todo of todos | async">
                     <td>{{todo.todo_id}}</td>
                     <td>{{todo.description}}</td>
-                    <td><button (click)="deleteEmployee(employee.id)">Delete</button></td>
+                    <td><button (click)="deleteTodo(todo.todo_id)">Delete</button></td>
                 </tr>
             </tbody>
         </table>
