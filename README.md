@@ -14,6 +14,9 @@ TodoService - todo-service.ts
 
 TodoListComponent - list-todos.component.ts
 
+Template TodoListComponent - list-todos.component.html
+
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
