@@ -1,3 +1,6 @@
+Generate components
+ ng g component components/input-todo && ng g c components/edit-todo && ng g c components/list-todos && ng g c components/delete-todo
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
